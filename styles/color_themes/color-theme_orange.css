@@ -1,0 +1,216 @@
+::-webkit-scrollbar-thumb {
+  color: #f9b500;
+  background: #f9b500;
+}
+
+.service-header__menu {
+  background-color: #e8e6d9;
+}
+
+.service-header__menu-item {
+  color: #000;
+}
+
+.service-header__menu-item::after {
+  background-color: #ffb900;
+}
+
+.service-header__contacts-email {
+  color: #f9b500;
+}
+
+/* .service-name {
+  background-image: url("../images/maths/bg.png");
+} */
+
+.service-name {
+  background-color: #5e5415;
+}
+
+.service-name button {
+  background-color: #ffb900;
+}
+
+.service-person {
+  background-color: #f9b500;
+  background-image: linear-gradient(to top, #ffa008 0%, #ff7338 100%);
+  color: #fff;
+}
+
+.service-achievements__pagination-item--active {
+  background-color: #f9b500;
+}
+
+.service-description {
+  background-color: #f9b500;
+  background-image: none;
+  color: #000;
+}
+
+.service-portfolio__gallery-item:hover::before {
+  background-color: #5e5415;
+}
+
+.service-program button.navigation-button {
+  background-color: #ff7338;
+}
+
+.service-program__pagination--dark .service-program__pagination-item--active {
+  background-color: #f9b500;
+}
+
+.service-reviews {
+  background-color: #edebe2;
+  color: #000;
+}
+
+.service-reviews__item {
+  color: #000;
+}
+
+.service-reviews button.navigation-button {
+  background-color: #f9b500;
+}
+
+.service-reviews__pagination-item--active {
+  background-color: #f9b500;
+}
+
+.service-order__item button:hover {
+  background-color: #f9b500;
+}
+
+.service-order__item--active {
+  border: 2px solid #f9b500;
+}
+
+.service-order button.navigation-button {
+  background-color: #f9b500;
+}
+
+.service-feedback {
+  background-color: #ff7338;
+  background-image: linear-gradient(to top, #ffa008 0%, #ff7338 100%);
+}
+
+.service-team button {
+  background-color: #ffb900;
+}
+
+.service-team__pagination--dark .service-team__pagination-item--active,
+.service-order__pagination--dark .service-order__pagination-item--active {
+  background-color: #f9b500;
+}
+
+.service-map__header {
+  background-color: #ffa008;
+  color: #fff;
+}
+
+.service-footer {
+  background-color: #292b2c;
+}
+
+.service-footer__subscribe-form::before {
+  color: #fff;
+}
+
+.subscribe-form__submit {
+  background-image: url("../../images/maths/button_subscribe.png");
+}
+
+.service-popup {
+  background-color: #f4c23d;
+  color: #000;
+}
+
+.service-cooperation__form label {
+  color: #000;
+}
+
+.back-to-top--visible:hover::before {
+  background-color: #f9b500;
+}
+
+.service-ordering__tab--active {
+  border-bottom: 3px solid #f9b500;
+}
+
+.service-ordering__gender input[type="radio"]:checked + label[for="service-ordering__male"]::before {
+  background-image: url("../../images/icons/male_orange.png");
+}
+
+.service-ordering__gender input[type="radio"]:checked + label[for="service-ordering__female"]::before {
+  background-image: url("../../images/icons/female_orange.png");
+}
+
+.service-ordering .jq-selectbox.focused {
+  border-color: #f9b500;
+}
+
+.service-ordering__intercom input[type="radio"]:checked + label::before {
+  background-color: #f9b500;
+  border: 2px solid #f9b500;
+}
+
+.service-ordering__checkbox input[type="checkbox"]:checked + label::before {
+  background-color: #f9b500;
+  border: 1px solid #f9b500;
+}
+
+.service-ordering__upload-file label::before {
+  background-image: url("../../images/icons/upload_file_orange.png");
+}
+
+.service-ordering__upload-file label {
+  color: #f9b500;
+}
+
+.service-ordering input[type="submit"] {
+  background-color: #ffb900;
+  border: 1px solid #ffb900;
+  color: #fff;
+}
+
+.service-ordering__personal-data input[type="checkbox"]:checked + label::before {
+  background-color: #f9b500;
+  border: 1px solid #f9b500;
+}
+
+.service-ordering__personal-data a {
+  color: #f9b500;
+}
+
+@media screen and (max-width: 1243px) {
+
+  /* Service header */
+
+  .service-header__menu {
+    background-color: #e8e6d9;
+  }
+
+  .service-header__menu-item {
+    color: #000;
+  }
+
+  .service-header__menu-item::after {
+    background-color: #f4c23d;
+  }
+
+  .service-header__menu-button--close {
+    background-image: url("../../images/icons/menu_close.png");
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .service-order__item {
+    border: 2px solid #f9b500;
+  }
+
+  .service-order__item button {
+    background-color: #f9b500;
+  }
+
+}
