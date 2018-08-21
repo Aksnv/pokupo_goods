@@ -406,7 +406,8 @@ button[disabled="disabled"] {
 
 .good-name--vitamins {
   min-height: 531px;
-  padding-top: 184px;
+  text-align: left;
+  padding-top: 105px;
 }
 
 .good-name--cards img {
@@ -425,6 +426,13 @@ button[disabled="disabled"] {
   margin-bottom: 39px;
 }
 
+.good-name--vitamins h1 {
+  font-size: 45px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
 .good-name h1 > span {
   font-family: 'museo_sans_cyrl300';
   font-size: 30px;
@@ -433,8 +441,27 @@ button[disabled="disabled"] {
   color: white;
 }
 
+.good-name--vitamins h1 > span {
+  font-family: 'museo_sans_cyrl700';
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+  padding-top: 22px;
+  color: white;
+}
+
 .good-name--cards h1 > span {
   padding-top: 30px;
+}
+
+.good-name--vitamins em {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'museo_sans_cyrl300';
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
 }
 
 .good-name p {
@@ -443,6 +470,10 @@ button[disabled="disabled"] {
 
 .good-name--cards p {
   margin-bottom: 44px;
+}
+
+.good-name--vitamins p {
+  font-size: 16px;
 }
 
 .good-name p.good-name__price {
