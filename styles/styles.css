@@ -867,7 +867,12 @@ button[disabled="disabled"] {
 }
 
 .good-description--cards {
-  min-height: 780px;
+  /* min-height: 780px; */
+  padding-bottom: 9px;
+}
+
+.good-description--cards .container {
+  padding-bottom: 252px;
 }
 
 .good-description h3 {
@@ -915,10 +920,11 @@ button[disabled="disabled"] {
 
 .good-description__picture {
   position: absolute;
+  bottom: -268px;
   left: calc(50% - 365px);
-  bottom: 0;
   display: block;
   width: 730px;
+  z-index: 2;
 }
 
 .good-description__picture img {
