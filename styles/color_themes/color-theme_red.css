@@ -12,11 +12,11 @@
 }
 
 .good-header__menu-item::after {
-  background-color: #ffb900;
+  background-color: #d9273c;
 }
 
 .good-header__contacts-email {
-  color: #f9b500;
+  color: #d9273c;
 }
 
 /* .good-name {
@@ -24,7 +24,7 @@
 } */
 
 .good-name {
-  background-color: rgba(33, 33, 33, 0.5);
+  background-color: #5c0808;
 }
 
 .good-name button {
@@ -38,18 +38,18 @@
 }
 
 .good-description {
-  background-color: #55476e;
+  background-color: #f9b500;
   background-image: none;
-  color: #ffffff;
+  color: #000;
 }
 
 .good-reviews {
-  background-color: #55476e;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000;
 }
 
 .good-reviews__item {
-  color: #000;
+  color: #4c4c4c;
 }
 
 .good-reviews button.navigation-button {
@@ -61,12 +61,12 @@
 }
 
 .good-order {
-  background-color: #e0e0e0;
-  background-image: none;
+  background-color: #65c965;
+  background-image: linear-gradient(to top, #a23737 0%, #53090a 100%);
 }
 
 .good-order__form {
-  color: #000000;
+  color: #ffffff;
 }
 
 .good-footer {
@@ -78,7 +78,7 @@
 }
 
 .subscribe-form__submit {
-  background-image: url("../../images/cards/button_subscribe.png");
+  background-image: url("../../images/vitamins/button_subscribe.png");
 }
 
 .good-popup {

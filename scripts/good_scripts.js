@@ -4,38 +4,7 @@ $(".good-header__menu-button").click(function() {
   $(this).toggleClass("good-header__menu-button--close");
   $(".good-header__logo").toggleClass("good-header__logo--open");
   $(".good-header__menu").toggleClass("good-header__menu--open");
-});
-
-
-/* Good order item hover */
-
-$(".good-order__item button.button").mouseover(function() {
-  if ($(".container").css("width") != "280px") {
-    $(this).parent().addClass("good-order__item--active");
-  }
-});
-
-$(".good-order__item button.button").mouseout(function() {
-  if ($(".container").css("width") != "280px") {
-    $(this).parent().removeClass("good-order__item--active");
-  }
-});
-
-
-/* Good order item height */
-
-$(document).ready(function() {
-  if ($(".container").css("width") == "1180px") {
-    var maxHeight = +$($(".good-order__item h4")[0]).css("height").split("px")[0];
-    for (var i = 1; i < $(".good-order__item h4").length; i++) {
-      if (+$($(".good-order__item h4")[i]).css("height").split("px")[0] > maxHeight) {
-        maxHeight = +$($(".good-order__item h4")[i]).css("height").split("px")[0];
-      }
-    }
-    for (var i = 0; i < $(".good-order__item h4").length; i++) {
-      $($(".good-order__item h4")[i]).css("height", maxHeight);
-    }
-  }
+  $(".good-overlay").toggleClass("good-overlay--active");
 });
 
 
@@ -65,17 +34,17 @@ $(".good-header__menu-item--1").click(function() {
 
 $(".good-header__menu-item--2").click(function() {
   $("html, body").animate({
-    scrollTop: $("#good-person").offset().top
+    scrollTop: $("#good-details").offset().top
   }, 1000);
   return false;
 });
 
-$(".good-header__menu-item--3").click(function() {
+/*$(".good-header__menu-item--3").click(function() {
   $("html, body").animate({
     scrollTop: $("#good-program").offset().top
   }, 1000);
   return false;
-});
+});*/
 
 $(".good-header__menu-item--4").click(function() {
   $("html, body").animate({
@@ -84,12 +53,12 @@ $(".good-header__menu-item--4").click(function() {
   return false;
 });
 
-$(".good-header__menu-item--5").click(function() {
+/*$(".good-header__menu-item--5").click(function() {
   $("html, body").animate({
     scrollTop: $("#good-map").offset().top
   }, 1000);
   return false;
-});
+});*/
 
 
 /* Offer counter */
@@ -134,63 +103,6 @@ function countdownCounter() {
 };
 
 setInterval(countdownCounter, 1000);
-
-
-/* Achievements pagination */
-
-$(".good-achievements__pagination-item").click(function() {
-  $(".good-achievements__pagination-item").removeClass("good-achievements__pagination-item--active");
-  $(".good-achievements__item").hide();
-  $(".good-achievements__item").removeClass("good-achievements__item--active");
-  $(this).addClass("good-achievements__pagination-item--active");
-  var num = $(this).attr("class").charAt(77);
-  $(".good-achievements__item--" + num).show();
-  $(".good-achievements__item--" + num).addClass("good-achievements__item--active");
-});
-
-
-/* Program carousel */
-
-$(".program-button--forward").click(function() {
-  $(".program-button--back").removeAttr("disabled");
-  for (var i = 0; i < $(".good-program__item").length; i++) {
-    if ($($(".good-program__item")[i]).hasClass("good-program__item--active")) {
-      $($(".good-program__item")[i]).removeClass("good-program__item--active");
-      $($(".good-program__item")[i + 1]).addClass("good-program__item--active");
-      if (i == 1) {
-        $(".program-button--forward").attr("disabled", "disabled");
-      }
-      break;
-    }
-  }
-});
-
-$(".program-button--back").click(function() {
-  $(".program-button--forward").removeAttr("disabled");
-  for (var i = 0; i < $(".good-program__item").length; i++) {
-    if ($($(".good-program__item")[i]).hasClass("good-program__item--active")) {
-      $($(".good-program__item")[i]).removeClass("good-program__item--active");
-      $($(".good-program__item")[i - 1]).addClass("good-program__item--active");
-      if (i == 1) {
-        $(".program-button--back").attr("disabled", "disabled");
-      }
-      break;
-    }
-  }
-});
-
-
-/* Program pagination */
-
-$(".good-program__pagination-item").click(function() {
-  $(".good-program__pagination-item").removeClass("good-program__pagination-item--active");
-  $(".good-program__item").hide();
-  $(".good-program__item").removeClass("good-program__item--active");
-  $(this).addClass("good-program__pagination-item--active");
-  var num = $(this).attr("class").charAt(67);
-  $(".good-program__item--" + num).show();
-  $(".good-program__item--" + num).addClass("good-program__item--active");
-});
 
 
 /* Reviews carousel */
@@ -248,59 +160,6 @@ $(".good-reviews__pagination-item").click(function() {
   var num = $(this).attr("class").charAt(67);
   $(".good-reviews__block--" + num).show();
   $(".good-reviews__block--" + num).addClass("good-reviews__block--active");
-});
-
-
-/* Order carousel */
-
-$(".order-button--forward").click(function() {
-  $(".order-button--back").removeAttr("disabled");
-  for (var i = 0; i < $(".good-order__item").length; i++) {
-    if ($($(".good-order__item")[i]).hasClass("good-order__item--visible")) {
-      $($(".good-order__item")[i]).removeClass("good-order__item--visible");
-      $($(".good-order__item")[i + 1]).addClass("good-order__item--visible");
-      if (i == 1) {
-        $(".order-button--forward").attr("disabled", "disabled");
-      }
-      break;
-    }
-  }
-});
-
-$(".order-button--back").click(function() {
-  $(".order-button--forward").removeAttr("disabled");
-  for (var i = 0; i < $(".good-order__item").length; i++) {
-    if ($($(".good-order__item")[i]).hasClass("good-order__item--visible")) {
-      $($(".good-order__item")[i]).removeClass("good-order__item--visible");
-      $($(".good-order__item")[i - 1]).addClass("good-order__item--visible");
-      if (i == 1) {
-        $(".order-button--back").attr("disabled", "disabled");
-      }
-      break;
-    }
-  }
-});
-
-
-/* Order pagination */
-
-$(".good-order__pagination-item").click(function() {
-  $(".good-order__pagination-item").removeClass("good-order__pagination-item--active");
-  $(".good-order__item").hide();
-  $(this).addClass("good-order__pagination-item--active");
-  var num = $(this).attr("class").charAt(63);
-  $(".good-order__item--" + num).show();
-});
-
-
-/* Team pagination */
-
-$(".good-team__pagination-item").click(function() {
-  $(".good-team__pagination-item").removeClass("good-team__pagination-item--active");
-  $(".good-team__item").hide();
-  $(this).addClass("good-team__pagination-item--active");
-  var num = $(this).attr("class").charAt(61);
-  $(".good-team__item--" + num).show();
 });
 
 
