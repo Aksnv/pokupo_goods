@@ -51,14 +51,14 @@
           <img src="../images/cards/good_image.png" alt="Обучающие карточки">
         </div>
         <div class="good-details__gallery">
-          <button class="gallery-button gallery-button--back" disabled="disabled">Назад</button>
-          <button class="gallery-button gallery-button--forward">Вперед</button>
+          <button class="gallery-button gallery-button--back" disabled="disabled"></button>
+          <button class="gallery-button gallery-button--forward"></button>
           <ul>
-            <li><img src="../images/cards/good_image_min_1.png" alt=""></li>
-            <li><img src="../images/cards/good_image_min_2.png" alt=""></li>
-            <li><img src="../images/cards/good_image_min_3.png" alt=""></li>
-            <li><img src="../images/cards/good_image_min_4.png" alt=""></li>
-            <li><img src="../images/cards/good_image_min_5.png" alt=""></li>
+            <li class="gallery-image__item gallery-image__item--1 gallery-image__item--active"><img src="../images/cards/good_image_min_1.png" alt=""></li>
+            <li class="gallery-image__item gallery-image__item--2"><img src="../images/cards/good_image_min_2.png" alt=""></li>
+            <li class="gallery-image__item gallery-image__item--3"><img src="../images/cards/good_image_min_3.png" alt=""></li>
+            <li class="gallery-image__item gallery-image__item--4"><img src="../images/cards/good_image_min_4.png" alt=""></li>
+            <li class="gallery-image__item gallery-image__item--5"><img src="../images/cards/good_image_min_5.png" alt=""></li>
           </ul>
         </div>
       </div>
@@ -67,12 +67,17 @@
         <h4>Описание:</h4>
         <p>Дети выучат буквы и&nbsp;хорошенько потренируют память. Приятное и&nbsp;увлекательное знакомство с&nbsp;буквами.</p>
         <ul>
-          <li><span>&#8734; 2-5 игроков</span></li>
-          <li><span>&#8734; для детей от 2 до 8 лет</span></li>
-          <li><span>&#8734; 10–20 мин</span></li>
-          <li><span>&#8734; 172×115×40 мм, 240 гр</span></li>
+          <li><span>2-5 игроков</span></li>
+          <li><span>для детей от 2 до 8 лет</span></li>
+          <li><span>10–20 мин</span></li>
+          <li><span>172×115×40 мм, 240 гр</span></li>
         </ul>
-        <p class="good-name__price"><strong>671 руб</strong><span class="good-name__discount">790 руб</span></p>
+        <p class="good-details__price"><strong>671 руб</strong><span class="good-details__discount">790 руб</span></p>
+        <div class="good-details__quantity">
+          <button class="quantity-button quantity-button--back" disabled="disabled"></button>
+          <button class="quantity-button quantity-button--forward"></button>
+          <input type="text" name="quantity" value="1">
+        </div>
         <button class="button button--popup">Заказать</button>
         <div class="good-details__social">
           <ul>

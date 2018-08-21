@@ -37,6 +37,15 @@
   color: #000000;
 }
 
+.good-details--cards button {
+  background-color: #ffb900;
+}
+
+.good-details--cards .gallery-button,
+.good-details--cards .quantity-button {
+  background-color: transparent;
+}
+
 .good-description {
   background-color: #55476e;
   background-image: none;

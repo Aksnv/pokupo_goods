@@ -531,7 +531,8 @@ button[disabled="disabled"] {
 }
 
 .good-details--cards {
-  min-height: 695px;
+  min-height: 648px;
+  padding-top: 13px;
 }
 
 .good-details h2 {
@@ -544,8 +545,17 @@ button[disabled="disabled"] {
   margin-bottom: 26px;
 }
 
+.good-details--cards h3 {
+  font-family: 'museo_sans_cyrl900';
+  margin-bottom: 37px;
+}
+
 .good-details h4 {
   text-align: left;
+}
+
+.good-details--cards h4 {
+  font-family: 'museo_sans_cyrl900';
 }
 
 .good-details p {
@@ -564,6 +574,12 @@ button[disabled="disabled"] {
   margin-right: 65px;
 }
 
+.good-details--cards .good-details__image {
+  margin-left: 64px;
+  margin-right: 4px;
+  padding-top: 81px;
+}
+
 .good-details__image img {
   display: block;
   width: auto;
@@ -572,9 +588,93 @@ button[disabled="disabled"] {
   max-height: 530px; 
 }
 
+.good-details--cards .good-details__image img {
+  display: block;
+  width: auto;
+  max-width: 453px;
+  height: auto;
+  max-height: 298px; 
+}
+
+.good-details__view {
+  margin-bottom: 83px;
+}
+
+.good-details__gallery {
+  position: relative;
+  text-align: left;
+}
+
 .good-details__gallery li {
   display: inline-block;
   vertical-align: top;
+  margin-right: 3px;
+}
+
+.good-details__gallery li:last-child {
+  margin-right: 0;
+}
+
+.good-details--cards .gallery-button,
+.good-details--cards .quantity-button {
+  position: absolute;
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.good-details--cards .gallery-button[disabled="disabled"],
+.good-details--cards .quantity-button[disabled="disabled"] {
+  cursor: default;
+}
+
+.good-details--cards .gallery-button {
+  width: 11px;
+  min-width: 11px;
+  height: 19px;
+  min-height: 19px;
+  line-height: 19px;
+  background-image: url(../images/icons/button_arrow_black.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.good-details--cards .gallery-button--back {
+  top: 32px;
+  left: -30px;
+}
+
+.good-details--cards .gallery-button--forward {
+  top: 32px;
+  right: 48px;
+  transform: rotate(180deg);
+}
+
+.gallery-image__item {
+  position: relative;
+  border: 1px solid #d4d4d4;
+  cursor: pointer;
+}
+
+.gallery-image__item img {
+  display: block;
+  width: auto;
+  max-width: 82px;
+  height: auto;
+  max-height: 82px; 
+}
+
+.gallery-image__item--active::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 82px;
+  height: 4px;
+  background-color: #8fad21;
 }
 
 .good-details__about {
@@ -589,6 +689,10 @@ button[disabled="disabled"] {
   list-style-type: none;
   margin-bottom: 24px;
   padding-left: 18px;
+}
+
+.good-details--cards .good-details__about ul {
+  margin-bottom: 38px;
 }
 
 .good-details__about li > span {
@@ -607,8 +711,101 @@ button[disabled="disabled"] {
   border-radius: 50%;
 }
 
+.good-details--cards .good-details__about li > span::before {
+  top: 6px;
+  left: -16px;
+  width: 6px;
+  height: 6px;
+  background-color: #000;
+}
+
+.good-details--cards .good-details__price {
+  position: relative;
+  top: 5px;
+  display: inline-block;
+}
+
+.good-details--cards .good-details__price strong {
+  font-family: 'museo_sans_cyrl300';
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.good-details--cards .good-details__discount {
+  position: relative;
+  display: inline-block;
+  font-family: 'museo_sans_cyrl300';
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 22px;
+  padding-right: 59px;
+  color: #b4b4b4;
+}
+
+.good-details--cards .good-details__discount::after {
+  position: absolute;
+  top: 9px;
+  left: 13px;
+  content: "";
+  display: block;
+  width: 79px;
+  height: 2px;
+  background-color: #ed1c24;
+  transform: rotate(-13deg);
+}
+
+.good-details__quantity {
+  position: relative;
+  display: inline-block;
+  padding-right: 51px;
+}
+
+.good-details__quantity input {
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.good-details--cards .quantity-button {
+  width: 6px;
+  min-width: 6px;
+  height: 12px;
+  min-height: 12px;
+  line-height: 12px;
+  background-image: url(../images/icons/button_arrow_grey.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.good-details--cards .quantity-button--back {
+  top: 15px;
+  left: -24px;
+}
+
+.good-details--cards .quantity-button--forward {
+  top: 15px;
+  right: 27px;
+  transform: rotate(180deg);
+}
+
+.good-details--cards button {
+  display: inline-block;
+  min-width: 168px;
+  height: auto;
+  min-height: 60px;
+  line-height: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .good-details__social {
   padding-top: 29px;
+}
+
+.good-details--cards .good-details__social {
+  padding-top: 45px;
 }
 
 .good-details__social ul {
