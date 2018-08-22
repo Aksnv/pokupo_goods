@@ -401,21 +401,13 @@ button[disabled="disabled"] {
 
 .good-name--cards {
   min-height: 951px;
-  padding-top: 98px;
+  padding-top: 384px;
 }
 
 .good-name--vitamins {
   min-height: 531px;
   text-align: left;
   padding-top: 105px;
-}
-
-.good-name--cards img {
-  width: auto;
-  max-width: 409px;
-  height: auto;
-  max-height: 281px;
-  margin-bottom: 11px;
 }
 
 .good-name h1 {
@@ -867,7 +859,6 @@ button[disabled="disabled"] {
 }
 
 .good-description--cards {
-  /* min-height: 780px; */
   padding-bottom: 9px;
 }
 
@@ -920,8 +911,8 @@ button[disabled="disabled"] {
 
 .good-description__picture {
   position: absolute;
-  bottom: -268px;
-  left: calc(50% - 365px);
+  bottom: -339px;
+  left: calc(50% - 390px);
   display: block;
   width: 730px;
   z-index: 2;
@@ -930,7 +921,7 @@ button[disabled="disabled"] {
 .good-description__picture img {
   width: auto;
   height: auto;
-  max-width: 730px;
+  max-width: 781px;
 }
 
 /* Good reviews */
@@ -1079,6 +1070,13 @@ button[disabled="disabled"] {
   padding-bottom: 49px;
 }
 
+.good-order--cards {
+  padding-top: 314px;
+  padding-bottom: 67px;
+  background-repeat: no-repeat;
+  background-position: 50% bottom;
+}
+
 .container--order {
   width: 1340px;
 }
@@ -1102,6 +1100,17 @@ button[disabled="disabled"] {
   background-color: #fff;
 }
 
+.good-order--cards .good-order__offer {
+  padding-top: 125px;
+  padding-bottom: 50px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  background-color: transparent;
+  color: #55476e;
+}
+
 .good-order__offer::after {
   position: absolute;
   top: 0;
@@ -1113,6 +1122,10 @@ button[disabled="disabled"] {
   background-color: #fff;
   border-radius: 50%;
   z-index: 0;
+}
+
+.good-order--cards .good-order__offer::after {
+  display: none;
 }
 
 .good-order__offer h3 {
@@ -1239,9 +1252,29 @@ button[disabled="disabled"] {
   z-index: 1;
 }
 
+.good-order--cards .offer-counter__text,
+.good-order--cards .offer-counter__content {
+  color: #55476e;
+}
+
+.good-order--cards .offer-counter__content {
+  position: absolute;
+  top: 5px;
+  right: -478px;
+  width: 65px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 0;
+}
+
 .good-order__form {
   width: 580px;
   padding-top: 19px;
+}
+
+.good-order--cards .good-order__form {
+  padding-top: 105px;
 }
 
 .good-order__form-block {
@@ -1258,6 +1291,14 @@ button[disabled="disabled"] {
 .good-order__form h3 {
   text-align: left;
   margin-bottom: 16px;
+}
+
+.good-order--cards .good-order__form h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .good-order__form h3 > span {

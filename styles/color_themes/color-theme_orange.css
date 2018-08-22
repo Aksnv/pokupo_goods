@@ -74,8 +74,27 @@
   background-image: none;
 }
 
+.good-order--cards .good-order__offer-counter {
+  color: #ffb900;
+}
+
+.offer-counter__days::before, 
+.offer-counter__hours::before, 
+.offer-counter__minutes::before, 
+.offer-counter__seconds::before,
+.offer-counter__days::after, 
+.offer-counter__hours::after, 
+.offer-counter__minutes::after, 
+.offer-counter__seconds::after {
+  background-color: #ffffff;
+}
+
 .good-order__form {
   color: #000000;
+}
+
+.good-order__form input[type="submit"] {
+  background-color: #ffb900;
 }
 
 .good-footer {
