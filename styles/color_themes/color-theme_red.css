@@ -43,8 +43,8 @@
 
 .good-description {
   background-color: #f9b500;
-  background-image: none;
-  color: #000;
+  background-image: linear-gradient(to top, #a23737 0%, #53090a 100%);
+  color: #fff;
 }
 
 .good-reviews {

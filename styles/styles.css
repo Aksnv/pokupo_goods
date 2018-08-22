@@ -1007,6 +1007,19 @@ button[disabled="disabled"] {
   padding-bottom: 9px;
 }
 
+.good-description--vitamins {
+  padding-top: 76px;
+  padding-bottom: 35px;
+}
+
+.good-description--vitamins .good-description__block {
+  display: inline-block;
+  vertical-align: top;
+  width: 586px;
+  text-align: left;
+  padding-right: 67px;
+}
+
 .good-description--cards .container {
   padding-bottom: 252px;
 }
@@ -1015,8 +1028,26 @@ button[disabled="disabled"] {
   margin-bottom: 17px;
 }
 
+.good-description--vitamins h3 {
+  text-align: left;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
 .good-description p {
   margin-bottom: 29px;
+}
+
+.good-description--vitamins p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.good-description--vitamins p > strong {
+  text-transform: uppercase;
 }
 
 .good-description li {
