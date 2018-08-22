@@ -1492,6 +1492,10 @@ button[disabled="disabled"] {
   color: #666;
 }
 
+.good-footer--cards {
+  padding-top: 65px;
+}
+
 .good-footer a {
   text-decoration: none;
   color: #666;
