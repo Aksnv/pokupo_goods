@@ -62,11 +62,15 @@
 }
 
 .good-reviews button.navigation-button {
-  background-color: #f9b500;
+  background-color: transparent;
 }
 
 .good-reviews__pagination-item--active {
   background-color: #f9b500;
+}
+
+.good-reviews--cards .good-reviews__pagination-item--active {
+  background-color: transparent;
 }
 
 .good-order {
