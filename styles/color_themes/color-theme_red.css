@@ -1,6 +1,6 @@
 ::-webkit-scrollbar-thumb {
-  color: #f9b500;
-  background: #f9b500;
+  color: #d9273c;
+  background: #d9273c;
 }
 
 .good-header__menu {
@@ -108,8 +108,9 @@
 }
 
 .good-popup {
-  background-color: #f4c23d;
-  color: #000;
+  background-color: #53090a;
+  background-image: linear-gradient(to top, #a23737 0%, #53090a 100%);
+  color: #fff;
 }
 
 .good-cooperation__form label {
@@ -117,7 +118,7 @@
 }
 
 .back-to-top--visible:hover::before {
-  background-color: #f9b500;
+  background-color: #d9273c;
 }
 
 .good-ordering__tab--active {

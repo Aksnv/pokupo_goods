@@ -118,12 +118,16 @@
 }
 
 .good-popup {
-  background-color: #f4c23d;
-  color: #000;
+  background-color: #55476e;
+  color: #fff;
 }
 
 .good-cooperation__form label {
-  color: #000;
+  color: #fff;
+}
+
+.good-cooperation__form input[type="submit"] {
+  background-color: #ffb900;
 }
 
 .back-to-top--visible:hover::before {

@@ -2207,12 +2207,29 @@ button[disabled="disabled"] {
   z-index: 101;
 }
 
+.good-popup--vitamins {
+  padding-top: 73px;
+  padding-bottom: 28px;
+}
+
 .good-popup--active {
   display: block;
 }
 
 .good-popup h3 {
   margin-bottom: 10px;
+}
+
+.good-popup--vitamins h3 {
+  margin-bottom: 6px;
+}
+
+.good-popup--vitamins h3 {
+  font-family: 'museo_sans_cyrl700';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
 }
 
 .good-popup p {
@@ -2225,6 +2242,10 @@ button[disabled="disabled"] {
   margin: 0 auto;
   padding-top: 36px;
   color: #000;
+}
+
+.good-popup--vitamins .good-cooperation__form {
+  padding-top: 54px;
 }
 
 .good-cooperation__form-block {
@@ -2262,6 +2283,15 @@ button[disabled="disabled"] {
   border: none;
 }
 
+.good-popup--vitamins .good-cooperation__form input {
+  height: 48px;
+  font-size: 16px;
+  line-height: 48px;
+  margin-bottom: 20px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
 .good-cooperation__form-block input {
   width: 280px;
 }
@@ -2285,6 +2315,17 @@ button[disabled="disabled"] {
   word-wrap: break-word;
   white-space: pre-line; 
   -webkit-appearance: none;
+}
+
+.good-popup--vitamins .good-cooperation__form input[type="submit"] {
+  min-width: 322px;
+  font-family: 'museo_sans_cyrl700';
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 28px;
+  background-color: #ff3d4d;
+  border-radius: 3px;
 }
 
 .close-button {
