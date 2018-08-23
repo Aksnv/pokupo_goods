@@ -1895,7 +1895,8 @@ button[disabled="disabled"] {
   color: #666;
 }
 
-.good-footer--cards {
+.good-footer--cards,
+.good-footer--vitamins {
   padding-top: 65px;
 }
 
