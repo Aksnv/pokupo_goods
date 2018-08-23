@@ -78,6 +78,10 @@
   background-image: none;
 }
 
+.good-order--cards .good-order__offer {
+  color: #55476e;
+}
+
 .good-order--cards .good-order__offer-counter {
   color: #ffb900;
 }

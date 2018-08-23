@@ -42,7 +42,7 @@
 }
 
 .good-description {
-  background-color: #f9b500;
+  background-color: #53090a;
   background-image: linear-gradient(to top, #a23737 0%, #53090a 100%);
   color: #fff;
 }
@@ -65,8 +65,30 @@
 }
 
 .good-order {
-  background-color: #65c965;
+  background-color: #53090a;
   background-image: linear-gradient(to top, #a23737 0%, #53090a 100%);
+}
+
+.good-order--vitamins .good-order__offer {
+  color: #fff;
+}
+
+.offer-counter__days, 
+.offer-counter__hours, 
+.offer-counter__minutes, 
+.offer-counter__seconds {
+  color: #912d2e;
+}
+
+.offer-counter__days::before, 
+.offer-counter__hours::before, 
+.offer-counter__minutes::before, 
+.offer-counter__seconds::before,
+.offer-counter__days::after, 
+.offer-counter__hours::after, 
+.offer-counter__minutes::after, 
+.offer-counter__seconds::after {
+  background-color: #ffffff;
 }
 
 .good-order__form {

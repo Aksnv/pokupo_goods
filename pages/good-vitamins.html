@@ -153,9 +153,16 @@
 
   <section class="good-order good-order--vitamins">
     <div class="container container--order">
+      <form name="good-order__form" method="POST" action="#" class="good-order__form">
+        <h3>Оформить заказ <span class="br">После заказа с вами свяжется менеджер и уточнит все детали</span></h3>
+        <input type="text" name="good-order__form-name" id="good-order__form-name" placeholder="Ваше имя">
+        <input type="text" name="good-order__form-phone" id="good-order__form-phone" placeholder="Телефон">
+        <input type="email" name="good-order__form-email" id="good-order__form-email" placeholder="Эл. почта">
+        <input type="submit" name="good-order__form-submit" id="good-order__form-submit" class="button" value="Заказать">
+      </form>
       <div class="good-order__offer">
         <h3>Спецпредложение</h3>
-        <p>Оставьте заявку прямо сейчас, <span class="br">чтобы получить <strong>бесплатное занятие</strong></span></p>
+        <p>Оставьте заявку прямо сейчас, <span class="br">чтобы получить <strong>скидку 20%</strong></span></p>
         <div class="good-order__offer-counter">
           <p>
             <strong>
@@ -181,22 +188,6 @@
           </p>
         </div>
       </div>
-      <form name="good-order__form" method="POST" action="#" class="good-order__form">
-        <h3>Заполните форму <span class="br">чтобы записаться на занятие</span></h3>
-        <label for="good-order__form-name">Контактное лицо</label>
-        <input type="text" name="good-order__form-name" id="good-order__form-name">
-        <div class="good-order__form-block">
-          <label for="good-order__form-email">Электронная почта</label>
-          <input type="email" name="good-order__form-email" id="good-order__form-email">
-        </div>
-        <div class="good-order__form-block">
-          <label for="good-order__form-phone">Контактный телефон</label>
-          <input type="text" name="good-order__form-phone" id="good-order__form-phone">
-        </div>
-        <label for="good-order__form-text">Описание запроса</label>
-        <input type="text" name="good-order__form-text" id="good-order__form-text">
-        <input type="submit" name="good-order__form-submit" id="good-order__form-submit" class="button" value="Записаться на занятие">
-      </form>
     </div>
   </section>
 
