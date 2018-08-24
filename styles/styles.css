@@ -1124,7 +1124,8 @@ button[disabled="disabled"] {
 
 .good-reviews__view,
 .good-reviews__text {
-  float: left;
+  /* float: left; */
+  float: right;
 }
 
 .good-reviews__view {
@@ -3206,6 +3207,29 @@ button[disabled="disabled"] {
 
   /* Good reviews */
 
+  .good-reviews--cards {
+    padding-top: 59px;
+  }
+
+  .good-reviews--cards .good-reviews__view,
+  .good-reviews--cards .good-reviews__text {
+    float: none;
+  }
+
+  .good-reviews--cards .good-reviews__view {
+    width: 708px;
+    margin-right: 0;
+   }
+
+  .good-reviews--cards h3 {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .good-reviews--cards h3 > span.br {
+    display: inline;
+  }
+
   .good-reviews__block {
     width: 708px;
   }
@@ -3223,6 +3247,23 @@ button[disabled="disabled"] {
 
   .good-reviews__block--active > .good-reviews__item:last-child {
     display: none;
+  }
+
+  .good-reviews--cards .good-reviews__block--active > .good-reviews__item:last-child {
+    display: block;
+  }
+
+  .good-reviews--cards .good-reviews__text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 42px;
+    padding-top: 0;
+  }
+
+  .good-reviews--cards .good-reviews__text p {
+    width: 525px;
+    line-height: 27px;
+    margin: 0 auto;
   }
 
   /* Good order */
