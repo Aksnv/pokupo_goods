@@ -2984,7 +2984,8 @@ button[disabled="disabled"] {
     top: 0;
     /* left: 924px; */
     left: 90%;
-    z-index: 3;
+    /* z-index: 3; */
+    z-index: 102;
   }
 
   .good-header__menu--open {
@@ -3017,24 +3018,51 @@ button[disabled="disabled"] {
     padding-bottom: 95px;
   }
 
+  .good-name--cards {
+    min-height: 895px;
+    padding-top: 393px;
+  }
+
   .good-name h1 {
     margin-bottom: 38px;
+  }
+
+  .good-name--cards h1 {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 40px;
   }
 
   .good-name h1 > span {
     padding-top: 30px;
   }
 
+  .good-name--cards p {
+    margin-bottom: 37px;
+  }
+
   .good-name p span.br {
     display: inline;
+  }
+
+  .good-name--cards p span.br {
+    display: block;
   }
 
   .good-name p.good-name__price {
     margin-bottom: 58px;
   }
 
+  .good-name--cards p.good-name__price {
+    margin-bottom: 31px;
+  }
+
   .good-name button {
     margin-top: 58px;
+  }
+
+  .good-name--cards button {
+    margin-top: 31px;
   }
 
   /* Good details */
@@ -3044,6 +3072,11 @@ button[disabled="disabled"] {
     padding-bottom: 24px;
   }
 
+  .good-details--cards {
+    margin-bottom: 32px;
+    padding-top: 60px;
+  } 
+
   .good-details h2 {
     margin-bottom: 30px;
     /* padding-top: 35px; */
@@ -3051,6 +3084,10 @@ button[disabled="disabled"] {
 
   .good-details h3 {
     margin-bottom: 23px;
+  }
+
+  .good-details--cards h3 {
+    margin-bottom: 38px;
   }
 
   .good-details h3 span.br {
@@ -3072,9 +3109,19 @@ button[disabled="disabled"] {
     margin: 0 auto;
   }
 
+  .good-details--cards .good-details__image {
+    width: 453px;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+
   .good-details__image img {
     max-width: 264px;
     max-height: 264px;
+  }
+
+  .good-details--cards .gallery-button--forward {
+    right: -29px;
   }
 
   .good-details__about {
@@ -3084,6 +3131,10 @@ button[disabled="disabled"] {
     padding-top: 35px;
     padding-left: 65px;
     padding-right: 65px; 
+  }
+
+  .good-details--cards .good-details__about {
+    padding-top: 60px;
   }
 
   .good-details__about ul {
