@@ -3653,22 +3653,45 @@ button[disabled="disabled"] {
     padding-bottom: 70px;
   }
 
+  .good-name--cards {
+    padding-top: 250px;
+    -webkit-background-size: 150%;
+    background-size: 150%;
+  }
+
   .good-name h1 {
     font-size: 40px;
     line-height: 46px;
     margin-bottom: 18px;
   }
 
+  .good-name--cards h1 {
+    line-height: 36px;
+    margin-bottom: 90px;
+  }
+
   .good-name h1 > span {
     padding-top: 4px;
+  }
+
+  .good-name--cards h1 > span {
+    padding-top: 20px;
   }
 
   .good-name p {
     margin-bottom: 18px;
   }
 
+  .good-name--cards p {
+    margin-bottom: 27px;
+  }
+
   .good-name p.good-name__price {
     margin-bottom: 16px;
+  }
+
+  .good-name--cards p.good-name__price {
+    margin-bottom: 31px;
   }
 
   .good-name button {
