@@ -952,7 +952,6 @@ button[disabled="disabled"] {
 }
 
 .good-details--vitamins .good-details__information ul {
-  display: inline-block;
   text-align: center;
 }
 
@@ -3215,12 +3214,12 @@ button[disabled="disabled"] {
   }
 
   .good-details--vitamins .good-details__information {
-    text-align: center;
     padding-top: 72px;
   }
 
   .good-details--vitamins .good-details__information li {
-    margin-right: 5px;
+    margin-right: 18px;
+    margin-bottom: 20px;
   }
 
   .good-details--vitamins .good-details__information strong {
