@@ -3224,8 +3224,22 @@ button[disabled="disabled"] {
     padding-bottom: 9px;
   }
 
+  .good-description--vitamins {
+    padding-top: 50px;
+    padding-bottom: 56px;
+  }
+
   .good-description--cards .container {
     padding-bottom: 249px;
+  }
+
+  .good-description--vitamins .good-description__block {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .good-description--vitamins h3 {
+    padding-top: 26px;
   }
 
   .good-description li {
