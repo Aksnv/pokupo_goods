@@ -3110,7 +3110,7 @@ button[disabled="disabled"] {
   }
 
   .good-details--vitamins {
-    padding-bottom: 141px;
+    padding-bottom: 151px;
   }
 
   .good-details h2 {
@@ -3209,7 +3209,7 @@ button[disabled="disabled"] {
   .good-details--vitamins .good-details__social {
     position: absolute;
     left: calc(50% - 160px);
-    bottom: -101px;
+    bottom: -111px;
     padding-top: 0;
   }
 
@@ -3219,7 +3219,7 @@ button[disabled="disabled"] {
 
   .good-details--vitamins .good-details__information li {
     margin-right: 18px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 
   .good-details--vitamins .good-details__information strong {
