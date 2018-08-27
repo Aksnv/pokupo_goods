@@ -3970,16 +3970,31 @@ button[disabled="disabled"] {
     padding-top: 39px;
   }
 
+  .good-reviews--vitamins {
+    padding-top: 264px;
+  }
+
   .good-reviews--cards h3 {
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 22px;
   }
 
+  .good-reviews--vitamins h3 {
+    width: 280px;
+    font-size: 30px;
+    text-align: left;
+  }
+
   .good-reviews__block,
   .good-reviews__item,
-  .good-reviews--cards .good-reviews__view {
+  .good-reviews--cards .good-reviews__view,
+  .good-reviews--vitamins .good-reviews__view {
     width: 280px;
+  }
+
+  .good-reviews--vitamins .good-reviews__view {
+    padding-left: 0;
   }
 
   .good-reviews__block {
@@ -3987,8 +4002,20 @@ button[disabled="disabled"] {
     margin-bottom: 40px;
   }
 
+  .good-reviews--vitamins .good-reviews__block {
+    margin-bottom: 115px;
+  }
+
+  .good-reviews--vitamins .good-reviews__block:last-child {
+    margin-bottom: 54px;
+  }
+
   .good-reviews--cards .good-reviews__text {
     font-size: 17px;
+  }
+
+  .good-reviews--vitamins .good-reviews__text {
+    top: -202px;
   }
 
   .good-reviews--cards .good-reviews__text p {
@@ -4010,6 +4037,11 @@ button[disabled="disabled"] {
   .good-reviews--cards .good-reviews__item {
     width: 280px;
     padding: 40px 28px;
+  }
+
+  .good-reviews--vitamins .good-reviews__item {
+    width: 280px;
+    max-width: 280px;
   }
 
   .good-reviews--cards .good-reviews__item::after {
@@ -4040,6 +4072,11 @@ button[disabled="disabled"] {
     position: relative;
     margin-left: 0;
     padding-top: 25px;
+  }
+
+  .good-reviews--vitamins .good-reviews__avatar {
+    left: 0;
+    top: -74px;
   }
 
   .good-reviews__pagination-item {
