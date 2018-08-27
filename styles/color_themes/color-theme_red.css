@@ -190,4 +190,10 @@
     background-image: url("../../images/icons/menu_close.png");
   }
 
+  /* Good name */
+
+  .good-name--vitamins {
+    background-color: #ffffff;
+  }
+
 }

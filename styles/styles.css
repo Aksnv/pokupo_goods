@@ -3659,6 +3659,13 @@ button[disabled="disabled"] {
     background-size: 150%;
   }
 
+  .good-name--vitamins {
+    min-height: 528px;
+    padding-top: 66px;
+    -webkit-background-size: 264%;
+    background-size: 264%;
+  }
+
   .good-name h1 {
     font-size: 40px;
     line-height: 46px;
@@ -3670,6 +3677,12 @@ button[disabled="disabled"] {
     margin-bottom: 90px;
   }
 
+  .good-name--vitamins h1 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
+
   .good-name h1 > span {
     padding-top: 4px;
   }
@@ -3678,12 +3691,25 @@ button[disabled="disabled"] {
     padding-top: 20px;
   }
 
+  .good-name--vitamins h1 > span {
+    font-size: 20px;
+    padding-top: 34px;
+  }
+
+  .good-name--vitamins em {
+    font-size: 20px;
+  }
+
   .good-name p {
     margin-bottom: 18px;
   }
 
   .good-name--cards p {
     margin-bottom: 27px;
+  }
+
+  .good-name--vitamins p {
+    width: 280px;
   }
 
   .good-name p.good-name__price {
