@@ -3736,6 +3736,10 @@ button[disabled="disabled"] {
     padding-bottom: 44px;
   }
 
+  .good-details--vitamins {
+    padding-bottom: 139px;
+  }
+
   .good-details h2 {
     margin-bottom: 32px;
   }
@@ -3763,9 +3767,20 @@ button[disabled="disabled"] {
     width: 281px;
   }
 
+  .good-details--vitamins .good-details__image {
+    width: 278px;
+    padding-top: 18px;
+    padding-left: 37px;
+  }
+
   .good-details--cards .good-details__image img {
     max-width: 281px;
     max-height: 184px;
+  }
+
+  .good-details--vitamins .good-details__image img {
+    max-width: 278px;
+    max-height: 273px;
   }
 
   .good-details--cards .good-details__gallery {
@@ -3785,6 +3800,11 @@ button[disabled="disabled"] {
     text-align: left;
   }
 
+  .good-details--vitamins .good-details__about {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .good-details__about ul {
     margin-bottom: 22px;
     padding-left: 10px;
@@ -3796,8 +3816,24 @@ button[disabled="disabled"] {
     padding-left: 17px;
   }
 
+  .good-details--vitamins .good-details__about ul {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .good-details--cards .good-details__price {
     margin-bottom: 38px;
+  }
+
+  .good-details--vitamins .good-details__price {
+    margin-right: 0;
+    margin-bottom: 36px;
+    padding-top: 13px;
+  }
+
+  .good-details--vitamins .good-details__discount {
+    top: 49px;
+    left: 35px;
   }
 
   .good-details--cards .good-details__quantity {
@@ -3813,6 +3849,20 @@ button[disabled="disabled"] {
     min-width: 158px;
   }
 
+  .good-details--vitamins button {
+    margin-bottom: 49px;
+  }
+
+  .good-details--vitamins .good-details__information {
+    padding-top: 39px;
+  }
+
+  .good-details--vitamins .good-details__information li {
+    margin-right: 0;
+    margin-bottom: 27px;
+    padding-right: 25px;
+  }
+
   .good-details__social {
     padding-top: 8px;
   }
@@ -3820,6 +3870,10 @@ button[disabled="disabled"] {
   .good-details--cards .good-details__social {
     padding-top: 31px;
     text-align: center;
+  }
+
+  .good-details--vitamins .good-details__social {
+    bottom: -109px;
   }
 
   .good-details__social li {
