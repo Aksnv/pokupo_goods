@@ -3034,12 +3034,24 @@ button[disabled="disabled"] {
     margin-bottom: 40px;
   }
 
+  .good-name--vitamins h1 {
+    margin-bottom: 18px;
+  }
+
   .good-name h1 > span {
     padding-top: 30px;
   }
 
+  .good-name--vitamins h1 > span {
+    padding-top: 20px;
+  }
+
   .good-name--cards p {
     margin-bottom: 37px;
+  }
+
+  .good-name--vitamins p {
+    width: 400px;
   }
 
   .good-name p span.br {
