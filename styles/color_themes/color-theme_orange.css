@@ -204,15 +204,3 @@
   }
 
 }
-
-@media screen and (max-width: 767px) {
-
-  .good-name--cards {
-    background-color: #ffffff;
-  }
-
-  .good-name--cards p {
-    color: #000000;
-  }
-
-}

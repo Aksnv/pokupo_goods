@@ -1129,7 +1129,7 @@ button[disabled="disabled"] {
 }
 
 .good-reviews__view {
-  width: 590px;
+  width: 585px;
   margin-right: 95px;
   text-align: center;
 }
@@ -1139,14 +1139,13 @@ button[disabled="disabled"] {
 }
 
 .good-reviews__text {
-  width: 490px;
+  width: 385px;
   padding-top: 142px;
 }
 
 .good-reviews--vitamins .good-reviews__text {
   position: relative;
-  top: -12px;
-  width: 380px;
+  width: 385px;
   padding-top: 0;
   margin-right: 210px;
 }
@@ -1593,8 +1592,16 @@ button[disabled="disabled"] {
 
 .good-order__offer-counter strong {
   position: relative;
+  display: inline-block;
+  vertical-align: top;
   font-size: 45px;
   line-height: 45px;
+}
+
+.good-order__offer-counter strong:last-child {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .good-order--vitamins .good-order__offer-counter strong {
@@ -1675,7 +1682,7 @@ button[disabled="disabled"] {
 .offer-counter__days,
 .offer-counter__hours,
 .offer-counter__minutes {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .offer-counter__separator {
@@ -1731,8 +1738,8 @@ button[disabled="disabled"] {
 
 .good-order--cards .offer-counter__content {
   position: absolute;
-  top: 5px;
-  right: -478px;
+  top: 35px;
+  left: 412px;
   width: 65px;
   font-size: 14px;
   line-height: 18px;
@@ -1742,8 +1749,8 @@ button[disabled="disabled"] {
 
 .good-order--vitamins .offer-counter__content {
   position: absolute;
-  top: -4px;
-  right: -387px;
+  top: 26px;
+  left: 332px;
   width: 65px;
   font-size: 14px;
   line-height: 18px;
@@ -1858,6 +1865,8 @@ button[disabled="disabled"] {
   width: auto;
   min-width: 328px;
   height: 60px;
+  font-size: 16px;
+  font-family: 'museo_sans_cyrl700';
   line-height: 60px;
   margin-top: 20px;
   padding: 0 30px;
@@ -2309,6 +2318,8 @@ button[disabled="disabled"] {
   height: auto;
   min-height: 60px;
   /* line-height: 60px; */
+  font-family: 'museo_sans_cyrl700';
+  font-size: 16px;
   line-height: 20px; 
   margin-top: 20px;
   background-color: #ed1c24;
@@ -3310,6 +3321,10 @@ button[disabled="disabled"] {
     margin-bottom: 32px;
   }
 
+  .good-reviews--vitamins h3 {
+    text-align: left;
+  }
+
   .good-reviews--cards h3 > span.br {
     display: inline;
   }
@@ -3463,16 +3478,15 @@ button[disabled="disabled"] {
   }
 
   .good-order--cards .offer-counter__content {
-    top: 106px;
-    left: 128px;
-    right: auto;
+    top: 149px;
+    left: 136px;
     width: 150px;
     font-size: 18px;
   }
 
   .good-order--vitamins .offer-counter__content {
-    top: -1px;
-    right: -79px;
+    top: 19px;
+    left: 374px;
   }
 
   .good-order__form {
@@ -3654,16 +3668,13 @@ button[disabled="disabled"] {
   }
 
   .good-name--cards {
-    padding-top: 250px;
-    -webkit-background-size: 150%;
-    background-size: 150%;
+    padding-top: 405px;
+    padding-bottom: 133px;
   }
 
   .good-name--vitamins {
     min-height: 528px;
     padding-top: 66px;
-    -webkit-background-size: 264%;
-    background-size: 264%;
   }
 
   .good-name h1 {
@@ -3674,7 +3685,7 @@ button[disabled="disabled"] {
 
   .good-name--cards h1 {
     line-height: 36px;
-    margin-bottom: 90px;
+    margin-bottom: 26px;
   }
 
   .good-name--vitamins h1 {
@@ -4165,6 +4176,7 @@ button[disabled="disabled"] {
   .offer-counter__seconds {
     width: 55px;
     letter-spacing: 14px;
+    margin-right: 4px;
   }
 
   .offer-counter__days::before, 
@@ -4211,12 +4223,12 @@ button[disabled="disabled"] {
   }
 
   .good-order--cards .offer-counter__content {
-    left: 82px;
+    top: 149px;
+    left: 83px;
   }
 
   .good-order--vitamins .offer-counter__content {
-    top: 60px;
-    right: auto;
+    top: 93px;
     left: 90px;
     width: 130px;
     font-size: 16px;
