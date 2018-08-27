@@ -1149,7 +1149,7 @@ button[disabled="disabled"] {
 
 .good-reviews--vitamins .good-reviews__text {
   position: relative;
-  width: 385px;
+  width: 395px;
   padding-top: 0;
   margin-right: 210px;
 }
@@ -3218,7 +3218,7 @@ button[disabled="disabled"] {
   }
 
   .good-details--vitamins .good-details__information li {
-    margin-right: 18px;
+    margin-right: 15px;
   }
 
   .good-details--vitamins .good-details__information strong {
