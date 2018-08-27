@@ -3891,8 +3891,21 @@ button[disabled="disabled"] {
     padding-top: 95px;
   }
 
+  .good-description--vitamins {
+    padding-top: 77px;
+  }
+
   .good-description--cards .container {
     padding-bottom: 89px;
+  }
+
+  .good-description--vitamins h3 {
+    font-size: 29px;
+    padding-top: 0;
+  }
+
+  .good-description--vitamins p {
+    margin-bottom: 26px;
   }
 
   .good-description--cards ul {
