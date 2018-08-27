@@ -3811,6 +3811,10 @@ button[disabled="disabled"] {
     padding-top: 95px;
   }
 
+  .good-description--cards .container {
+    padding-bottom: 89px;
+  }
+
   .good-description--cards ul {
     margin-bottom: 53px;
   }
@@ -3854,6 +3858,17 @@ button[disabled="disabled"] {
 
   .good-description ul p {
     margin-bottom: 0;
+  }
+
+  .good-description--cards .good-description__picture {
+    left: calc(50% - 160px);
+    bottom: -179px;
+    width: 320px;
+  }
+
+  .good-description--cards .good-description__picture img {
+    max-width: 320px;
+    margin: 0 auto;
   }
 
   /* Good reviews */
@@ -3913,6 +3928,11 @@ button[disabled="disabled"] {
     padding-bottom: 20px;
   }
 
+  .good-order--cards {
+    padding-top: 164px;
+    padding-bottom: 369px;
+  }
+
   .good-order__offer {
     /* text-align: left; */
     text-align: center;
@@ -3923,6 +3943,10 @@ button[disabled="disabled"] {
     border-bottom-right-radius: 90px;
   }
 
+  .good-order--cards .good-order__offer {
+    top: 546px;
+  }
+
   .good-order__offer > p {
     width: 280px;
     margin: 0 auto;
@@ -3930,6 +3954,10 @@ button[disabled="disabled"] {
 
   .good-order__offer > p strong {
     display: block;
+  }
+
+  .good-order--cards .good-order__offer > p strong {
+    display: inline;
   }
 
   .good-order__offer-counter {
@@ -3993,6 +4021,10 @@ button[disabled="disabled"] {
     width: 100%;
     text-align: center;
     margin-top: 50px;
+  }
+
+  .good-order--cards .offer-counter__content {
+    left: 82px;
   }
 
   .good-order__form,
