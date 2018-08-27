@@ -608,12 +608,16 @@ button[disabled="disabled"] {
   max-height: 530px; 
 }
 
-.good-details--cards .good-details__image img {
-  display: block;
+.good-details--cards .good-details__image img.good-details__view-item {
+  display: none;
   width: auto;
   max-width: 453px;
   height: auto;
   max-height: 298px; 
+}
+
+.good-details--cards .good-details__image img.good-details__view-item--active {
+  display: block;
 }
 
 .good-details--vitamins .good-details__image img {
