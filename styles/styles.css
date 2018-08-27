@@ -3873,14 +3873,33 @@ button[disabled="disabled"] {
 
   /* Good reviews */
 
+  .good-reviews--cards {
+    padding-top: 39px;
+  }
+
+  .good-reviews--cards h3 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 22px;
+  }
+
   .good-reviews__block,
-  .good-reviews__item {
+  .good-reviews__item,
+  .good-reviews--cards .good-reviews__view {
     width: 280px;
   }
 
   .good-reviews__block {
     border-spacing: 0;
     margin-bottom: 40px;
+  }
+
+  .good-reviews--cards .good-reviews__text {
+    font-size: 17px;
+  }
+
+  .good-reviews--cards .good-reviews__text p {
+    width: 280px;
   }
 
   .good-reviews__block--active > .good-reviews__item:last-child {
@@ -3893,6 +3912,19 @@ button[disabled="disabled"] {
     /* margin-bottom: 20px; */
     padding: 29px 19px;
     padding-bottom: 27px;
+  }
+
+  .good-reviews--cards .good-reviews__item {
+    width: 280px;
+    padding: 40px 28px;
+  }
+
+  .good-reviews--cards .good-reviews__item::after {
+    width: 270px;
+  }
+
+  .good-reviews--cards .good-reviews__item::before {
+    width: 260px;
   }
 
   /* .good-reviews__item--with-photo .good-reviews__photo {
@@ -3919,6 +3951,10 @@ button[disabled="disabled"] {
 
   .good-reviews__pagination-item {
     cursor: pointer;
+  }
+
+  .good-reviews--cards .navigation-button {
+    display: block;
   }
 
   /* Good order */
