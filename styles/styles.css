@@ -3284,14 +3284,25 @@ button[disabled="disabled"] {
     padding-top: 59px;
   }
 
+  .good-reviews--vitamins {
+    padding-top: 143px;
+    padding-bottom: 17px;
+  }
+
   .good-reviews--cards .good-reviews__view,
-  .good-reviews--cards .good-reviews__text {
+  .good-reviews--cards .good-reviews__text,
+  .good-reviews--vitamins .good-reviews__view,
+  .good-reviews--vitamins .good-reviews__text {
     float: none;
   }
 
   .good-reviews--cards .good-reviews__view {
     width: 708px;
     margin-right: 0;
+   }
+
+  .good-reviews--vitamins .good-reviews__view {
+    padding-left: 76px;
    }
 
   .good-reviews--cards h3 {
@@ -3313,6 +3324,11 @@ button[disabled="disabled"] {
     margin: 0 auto;
   }
 
+  .good-reviews--vitamins .good-reviews__item {
+    width: 650px;
+    max-width: 650px;
+  }
+
   .good-reviews__item--with-photo {
     /* width: 509px; */
     padding-bottom: 78px;
@@ -3322,7 +3338,8 @@ button[disabled="disabled"] {
     display: none;
   }
 
-  .good-reviews--cards .good-reviews__block--active > .good-reviews__item:last-child {
+  .good-reviews--cards .good-reviews__block--active > .good-reviews__item:last-child,
+  .good-reviews--vitamins .good-reviews__block--active > .good-reviews__item:last-child {
     display: block;
   }
 
@@ -3331,6 +3348,12 @@ button[disabled="disabled"] {
     text-align: center;
     margin-bottom: 42px;
     padding-top: 0;
+  }
+
+  .good-reviews--vitamins .good-reviews__text {
+    position: absolute;
+    top: -91px;
+    left: 0;
   }
 
   .good-reviews--cards .good-reviews__text p {
