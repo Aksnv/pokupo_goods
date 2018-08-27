@@ -3374,6 +3374,11 @@ button[disabled="disabled"] {
     padding-bottom: 405px;
   }
 
+  .good-order--vitamins {
+    padding-top: 51px;
+    padding-bottom: 154px;
+  }
+
   .good-order__offer {
     float: none;
     width: 100%;
@@ -3396,6 +3401,11 @@ button[disabled="disabled"] {
     padding-bottom: 0;
   }
 
+  .good-order--vitamins .good-order__offer {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+
   .good-order__offer::after {
     display: none;
   }
@@ -3414,6 +3424,10 @@ button[disabled="disabled"] {
     margin-bottom: 17px;
   }
 
+  .good-order--vitamins .good-order__offer h3 {
+    text-align: left;
+  }
+
   .good-order__offer > p {
     font-size: 16px;
     line-height: 24px;
@@ -3422,6 +3436,11 @@ button[disabled="disabled"] {
 
   .good-order--cards .good-order__offer > p {
     font-size: 18px;
+  }
+
+  .good-order--vitamins .good-order__offer > p {
+    width: 235px;
+    text-align: left;
   }
 
   .good-order__offer > p span.br {
@@ -3438,6 +3457,11 @@ button[disabled="disabled"] {
     padding-top: 53px;
   }
 
+  .good-order--vitamins .good-order__offer-counter {
+    top: 17px;
+    left: 273px;
+  }
+
   .good-order--cards .offer-counter__content {
     top: 106px;
     left: 128px;
@@ -3446,10 +3470,19 @@ button[disabled="disabled"] {
     font-size: 18px;
   }
 
+  .good-order--vitamins .offer-counter__content {
+    top: -1px;
+    right: -79px;
+  }
+
   .good-order__form {
     float: none;
     margin: 0 auto;
     padding-top: 27px;
+  }
+
+  .good-order--vitamins .good-order__form {
+    padding-left: 0;
   }
 
   .good-order__form h3 {
@@ -3457,7 +3490,28 @@ button[disabled="disabled"] {
     margin-bottom: 27px;
   }
 
+  .good-order--vitamins .good-order__form h3 {
+    text-align: left;
+  }
+
+  .good-order--vitamins .good-order__form input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .good-order--vitamins .good-order__form input[type="submit"] {
+    top: auto;
+    bottom: -121px;
+    right: 235px;
+  }
+
   /* Good footer */
+
+  .good-footer--cards, 
+  .good-footer--vitamins {
+    padding-top: 52px;
+  }
 
   .good-footer__block:nth-child(1) {
     margin-right: 80px;
