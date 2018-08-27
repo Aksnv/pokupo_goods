@@ -3807,6 +3807,14 @@ button[disabled="disabled"] {
     padding-bottom: 48px;
   }
 
+  .good-description--cards {
+    padding-top: 95px;
+  }
+
+  .good-description--cards ul {
+    margin-bottom: 53px;
+  }
+
   .good-description li,
   .good-description__image {
     width: 130px;
@@ -3814,6 +3822,11 @@ button[disabled="disabled"] {
 
   .good-description li:nth-child(n) {
     margin-right: 8px;
+  }
+
+  .good-description--cards li:nth-child(n) {
+    width: 100%;
+    margin-right: 0;
   }
 
   .good-description li:nth-child(2n+2), 
@@ -3826,8 +3839,17 @@ button[disabled="disabled"] {
     padding-top: 0;
   }
 
+  .good-description--cards .good-description__image {
+    width: 280px;
+    text-align: center;
+  }
+
   .good-description__text {
     padding-top: 0;
+  }
+
+  .good-description--cards .good-description__text {
+    padding-top: 30px;
   }
 
   .good-description ul p {
