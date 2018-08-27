@@ -3088,7 +3088,11 @@ button[disabled="disabled"] {
   .good-details--cards {
     padding-top: 60px;
     padding-bottom: 32px;
-  } 
+  }
+
+  .good-details--vitamins {
+    padding-bottom: 161px;
+  }
 
   .good-details h2 {
     margin-bottom: 30px;
@@ -3128,9 +3132,19 @@ button[disabled="disabled"] {
     padding-top: 0;
   }
 
+  .good-details--vitamins .good-details__image {
+    margin: 0 auto;
+    padding-top: 69px;
+    padding-left: 76px;
+  }
+
   .good-details__image img {
     max-width: 264px;
     max-height: 264px;
+  }
+
+  .good-details--vitamins .good-details__view {
+    margin-bottom: 0;
   }
 
   .good-details--cards .gallery-button--forward {
@@ -3150,6 +3164,12 @@ button[disabled="disabled"] {
     padding-top: 60px;
   }
 
+  .good-details--vitamins .good-details__about {
+    padding-top: 0;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
   .good-details__about ul {
     /* width: 578px;
     margin: 0 auto;
@@ -3165,6 +3185,33 @@ button[disabled="disabled"] {
 
   .good-details__social {
     padding-top: 0;
+  }
+
+  .good-details--vitamins .good-details__social {
+    position: absolute;
+    left: calc(50% - 160px);
+    bottom: -121px;
+    padding-top: 0;
+  }
+
+  .good-details--vitamins .good-details__information {
+    padding-top: 72px;
+  }
+
+  .good-details--vitamins .good-details__information li {
+    margin-right: 18px;
+  }
+
+  .good-details--vitamins .good-details__information strong {
+    font-size: 56px;
+  }
+
+  .good-details--vitamins .good-details__information em {
+    max-width: 115px;
+  }
+
+  .good-details--vitamins .good-details__information img {
+    margin-right: 5px;
   }
 
   /* Good description */
