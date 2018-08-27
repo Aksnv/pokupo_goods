@@ -835,7 +835,7 @@ button[disabled="disabled"] {
   height: 42px;
   font-family: 'museo_sans_cyrl300';
   font-size: 18px;
-  line-height: 24px;
+  line-height: 40px;
   text-align: center;
   background-color: white;
   color: #000000;
