@@ -175,7 +175,7 @@
   /* Good header */
 
   .good-header__menu {
-    background-color: #e8e6d9;
+    background-color: #ffffff;
   }
 
   .good-header__menu-item {
@@ -183,7 +183,7 @@
   }
 
   .good-header__menu-item::after {
-    background-color: #f4c23d;
+    background-color: #d9273c;
   }
 
   .good-header__menu-button--close {
