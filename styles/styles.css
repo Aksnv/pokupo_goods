@@ -4099,6 +4099,10 @@ button[disabled="disabled"] {
     padding-bottom: 369px;
   }
 
+  .good-order--vitamins {
+    padding-bottom: 249px;
+  }
+
   .good-order__offer {
     /* text-align: left; */
     text-align: center;
@@ -4113,16 +4117,28 @@ button[disabled="disabled"] {
     top: 546px;
   }
 
+  .good-order--vitamins .good-order__offer h3 {
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .good-order__offer > p {
     width: 280px;
     margin: 0 auto;
+  }
+
+  .good-order--vitamins .good-order__offer > p {
+    width: 280px;
+    text-align: center;
   }
 
   .good-order__offer > p strong {
     display: block;
   }
 
-  .good-order--cards .good-order__offer > p strong {
+  .good-order--cards .good-order__offer > p strong,
+  .good-order--vitamins .good-order__offer > p strong {
     display: inline;
   }
 
@@ -4131,6 +4147,11 @@ button[disabled="disabled"] {
     /* padding-left: 10px; */
     padding-left: 0;
     /* margin-left: 10px; */
+  }
+
+  .good-order--vitamins .good-order__offer-counter {
+    top: 98px;
+    left: 10px;
   }
 
   .good-order__offer-counter strong {
@@ -4193,12 +4214,33 @@ button[disabled="disabled"] {
     left: 82px;
   }
 
+  .good-order--vitamins .offer-counter__content {
+    top: 60px;
+    right: auto;
+    left: 90px;
+    width: 130px;
+    font-size: 16px;
+  }
+
   .good-order__form,
-  .good-order__form input {
+  .good-order__form input,
+  .good-order--vitamins .good-order__form {
     width: 280px;
   }
 
+  .good-order--vitamins .good-order__form h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
   .good-order__form input[type="submit"] {
+    min-width: 280px;
+  }
+
+  .good-order--vitamins .good-order__form input[type="submit"] {
+    bottom: -208px;
+    right: auto;
+    left: 20px;
     min-width: 280px;
   }
 
