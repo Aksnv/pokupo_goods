@@ -4310,10 +4310,18 @@ button[disabled="disabled"] {
     border-radius: 0;
   }
 
+  .good-popup--vitamins {
+    padding-top: 53px;
+  }
+
   .container--good-popup {
     position: relative;
     width: 280px;
     margin: 0 auto;
+  }
+
+  .good-popup--vitamins h3 {
+    font-size: 30px;
   }
 
   /* .good-popup {
@@ -4330,11 +4338,19 @@ button[disabled="disabled"] {
     padding-top: 16px;
   }
 
+  .good-popup--vitamins .good-cooperation__form {
+    padding-top: 36px;
+  }
+
   .good-cooperation__form input[type="submit"] {
     /* width: 268px; */
     min-width: 268px;
     padding-top: 10px; 
     padding-bottom: 10px;
+  }
+
+  .good-popup--vitamins .good-cooperation__form input[type="submit"] {
+    min-width: 280px;
   }
 
   .close-button {
@@ -4343,6 +4359,12 @@ button[disabled="disabled"] {
     width: 19px;
     height: 19px;
     background-image: url("../images/icons/menu_close_white.png");
+  }
+
+  .good-popup--vitamins .close-button {
+    right: auto;
+    left: 0;
+    top: -33px;
   }
 
   /* Page popup */
