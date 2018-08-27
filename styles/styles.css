@@ -1143,7 +1143,7 @@ button[disabled="disabled"] {
 }
 
 .good-reviews__text {
-  width: 385px;
+  width: 395px;
   padding-top: 142px;
 }
 
@@ -1224,12 +1224,16 @@ button[disabled="disabled"] {
 
 .good-reviews--cards .good-reviews__item {
   position: relative;
-  display: block;
+  display: none;
   width: 590px;
   max-width: 590px;
   min-height: 510px;
   padding: 90px 105px;
   border-radius: 5px;
+}
+
+.good-reviews--cards .good-reviews__item--active {
+  display: block;
 }
 
 .good-reviews--cards .good-reviews__item::after {
@@ -3353,14 +3357,14 @@ button[disabled="disabled"] {
     padding-bottom: 78px;
   }
 
-  .good-reviews__block--active > .good-reviews__item:last-child {
+  /* .good-reviews__block--active > .good-reviews__item:last-child {
     display: none;
   }
-
+  
   .good-reviews--cards .good-reviews__block--active > .good-reviews__item:last-child,
   .good-reviews--vitamins .good-reviews__block--active > .good-reviews__item:last-child {
-    display: block;
-  }
+    display: none;
+  } */
 
   .good-reviews--cards .good-reviews__text {
     width: 100%;
@@ -3788,7 +3792,7 @@ button[disabled="disabled"] {
     padding-left: 37px;
   }
 
-  .good-details--cards .good-details__image img {
+  .good-details--cards .good-details__image img.good-details__view-item {
     max-width: 281px;
     max-height: 184px;
   }
@@ -4037,11 +4041,9 @@ button[disabled="disabled"] {
     width: 280px;
   }
 
-  .good-reviews__block--active > .good-reviews__item:last-child {
-    /* display: block;
-    margin-bottom: 0; */
+  /* .good-reviews__block--active > .good-reviews__item:last-child {
     display: none;
-  }
+  } */
 
   .good-reviews__item {
     /* margin-bottom: 20px; */

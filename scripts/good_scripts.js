@@ -230,6 +230,41 @@ $(".gallery-button--back").click(function() {
 });
 
 
+/* Good reviews slider */
+
+$(".reviews-button--forward").click(function() {
+  $(".reviews-button--back").removeAttr("disabled");
+  for (var i = 0; i < $(".good-reviews__item").length; i++) {
+    if ($($(".good-reviews__item")[i]).hasClass("good-reviews__item--active")) {
+      $($(".good-reviews__item")[i]).removeClass("good-reviews__item--active");
+      $($(".good-reviews__pagination-item")[i]).removeClass("good-reviews__pagination-item--active");
+      $($(".good-reviews__item")[i + 1]).addClass("good-reviews__item--active");
+      $($(".good-reviews__pagination-item")[i + 1]).addClass("good-reviews__pagination-item--active");
+      if (i == 2) {
+        $(".reviews-button--forward").attr("disabled", "disabled");
+      }
+      break;
+    }
+  }
+});
+
+$(".reviews-button--back").click(function() {
+  $(".reviews-button--forward").removeAttr("disabled");
+  for (var i = 0; i < $(".good-reviews__item").length; i++) {
+    if ($($(".good-reviews__item")[i]).hasClass("good-reviews__item--active")) {
+      $($(".good-reviews__item")[i]).removeClass("good-reviews__item--active");
+      $($(".good-reviews__pagination-item")[i]).removeClass("good-reviews__pagination-item--active");
+      $($(".good-reviews__item")[i - 1]).addClass("good-reviews__item--active");
+      $($(".good-reviews__pagination-item")[i - 1]).addClass("good-reviews__pagination-item--active");
+      if (i == 1) {
+        $(".reviews-button--back").attr("disabled", "disabled");
+      }
+      break;
+    }
+  }
+});
+
+
 /* Back-to-top button */
 
 (function () {
