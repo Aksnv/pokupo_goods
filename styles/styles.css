@@ -833,8 +833,12 @@ button[disabled="disabled"] {
 .good-details__quantity input {
   width: 42px;
   height: 42px;
+  font-family: 'museo_sans_cyrl300';
+  font-size: 18px;
+  line-height: 24px;
   text-align: center;
   background-color: white;
+  color: #000000;
   border: 1px solid #ccc;
 }
 
@@ -3809,6 +3813,10 @@ button[disabled="disabled"] {
 
   .good-details--cards .good-details__gallery li {
     margin-bottom: 10px;
+  }
+
+  .good-details--cards .gallery-button {
+    display: none;
   }
 
   .good-details__about {
